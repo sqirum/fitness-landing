@@ -239,3 +239,89 @@ section#newsletter {
         }
     }
 }
+
+section#blog {
+    padding: 7em 0;
+    background: #f9f9f9;
+    h2 {
+        font-size: 30px;
+        letter-spacing: 6px;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    p {
+        font-size: 20px;
+        color: #707070;
+        line-height: 25px;
+        letter-spacing: 0.4px;
+    }
+    .blog-item {
+        border: 1px solid #d8d7d7;
+        height: 100%;
+        span {
+            color: #999;
+            font-weight: bold;
+            font-size: 14px;
+        }
+        h3 {
+            a {
+                font-family: 'Lora', serif;
+                font-style: italic;
+                font-weight: 600;
+                font-size: 24px;
+                color: #606060;
+                text-decoration: none;
+            }
+        }
+        h5.author {
+            color: #606060;
+            letter-spacing: 1px;
+            font-weight: 600;
+            font-size: 14px;
+        }
+        &.item1 {
+            &:hover {
+                background: url(/img/blog-thumb.jpg) no-repeat;
+                background-size: 120%;
+                background-position: center center;
+                transition: all 4s linear;
+                span, h3 a, h5.author {
+                    color: white;
+                }
+            }
+        }
+        &.item2 {
+            &:hover {
+                background: url(/img/blog-thumb1.jpg) no-repeat;
+                background-size: 120%;
+                background-position: center center;
+                transition: all 4s linear;
+                span, h3 a, h5.author {
+                    color: white;
+                }
+            }
+        }
+        &.item3 {
+            &:hover {
+                background: url(/img/blog-thumb2.jpg) no-repeat;
+                background-size: 120%;
+                background-position: center center;
+                transition: all 4s linear;
+                span, h3 a, h5.author {
+                    color: white;
+                }
+            }
+        }
+        &.item4 {
+            &:hover {
+                background: url(/img/blog-thumb3.jpg) no-repeat;
+                background-size: 120%;
+                background-position: center center;
+                transition: all 4s linear;
+                span, h3 a, h5.author {
+                    color: black;
+                }
+            }
+        }
+    }
+}

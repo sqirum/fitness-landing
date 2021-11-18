@@ -12235,4 +12235,98 @@ section#newsletter button:hover {
   -webkit-transition: all .5s ease;
   transition: all .5s ease;
 }
+
+section#blog {
+  padding: 7em 0;
+  background: #f9f9f9;
+}
+
+section#blog h2, section#blog .h2 {
+  font-size: 30px;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+section#blog p {
+  font-size: 20px;
+  color: #707070;
+  line-height: 25px;
+  letter-spacing: 0.4px;
+}
+
+section#blog .blog-item {
+  border: 1px solid #d8d7d7;
+  height: 100%;
+}
+
+section#blog .blog-item span {
+  color: #999;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+section#blog .blog-item h3 a, section#blog .blog-item .h3 a {
+  font-family: 'Lora', serif;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 24px;
+  color: #606060;
+  text-decoration: none;
+}
+
+section#blog .blog-item h5.author, section#blog .blog-item .author.h5 {
+  color: #606060;
+  letter-spacing: 1px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+section#blog .blog-item.item1:hover {
+  background: url(/img/blog-thumb.jpg) no-repeat;
+  background-size: 120%;
+  background-position: center center;
+  -webkit-transition: all 4s linear;
+  transition: all 4s linear;
+}
+
+section#blog .blog-item.item1:hover span, section#blog .blog-item.item1:hover h3 a, section#blog .blog-item.item1:hover .h3 a, section#blog .blog-item.item1:hover h5.author, section#blog .blog-item.item1:hover .author.h5 {
+  color: white;
+}
+
+section#blog .blog-item.item2:hover {
+  background: url(/img/blog-thumb1.jpg) no-repeat;
+  background-size: 120%;
+  background-position: center center;
+  -webkit-transition: all 4s linear;
+  transition: all 4s linear;
+}
+
+section#blog .blog-item.item2:hover span, section#blog .blog-item.item2:hover h3 a, section#blog .blog-item.item2:hover .h3 a, section#blog .blog-item.item2:hover h5.author, section#blog .blog-item.item2:hover .author.h5 {
+  color: white;
+}
+
+section#blog .blog-item.item3:hover {
+  background: url(/img/blog-thumb2.jpg) no-repeat;
+  background-size: 120%;
+  background-position: center center;
+  -webkit-transition: all 4s linear;
+  transition: all 4s linear;
+}
+
+section#blog .blog-item.item3:hover span, section#blog .blog-item.item3:hover h3 a, section#blog .blog-item.item3:hover .h3 a, section#blog .blog-item.item3:hover h5.author, section#blog .blog-item.item3:hover .author.h5 {
+  color: white;
+}
+
+section#blog .blog-item.item4:hover {
+  background: url(/img/blog-thumb3.jpg) no-repeat;
+  background-size: 120%;
+  background-position: center center;
+  -webkit-transition: all 4s linear;
+  transition: all 4s linear;
+}
+
+section#blog .blog-item.item4:hover span, section#blog .blog-item.item4:hover h3 a, section#blog .blog-item.item4:hover .h3 a, section#blog .blog-item.item4:hover h5.author, section#blog .blog-item.item4:hover .author.h5 {
+  color: black;
+}
 /*# sourceMappingURL=style.css.map */
