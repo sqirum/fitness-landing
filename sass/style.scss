@@ -325,3 +325,173 @@ section#blog {
         }
     }
 }
+
+section#prices {
+    padding: 7em 0;
+    background: url('/img/price-bg.jpg') no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    h2 {
+        font-size: 30px;
+        letter-spacing: 6px;
+        text-transform: uppercase;
+        font-weight: bold;
+        text-align: center;
+        color: white;
+    }
+    p {
+        font-size: 20px;
+        color: #707070;
+        line-height: 25px;
+        letter-spacing: 0.4px;
+        text-align: center;
+    }
+    .pricing-item {
+        color: white;
+        border: 1px solid #666;
+        text-align: center;
+        height: 100%;
+        h3 {
+            font-size: 2em;
+            margin: 0;
+            padding: 0;
+            font-family: 'Lora', serif;
+            font-style: italic;
+        }
+        .price {
+            background: #26253a;
+            border-radius: 100%;
+            width: 90px;
+            height: 90px;
+            line-height: 90px;
+            font-weight: bold;
+            font-size: 1.45em;
+            display: inline-block;
+        }
+        ul.feature-list {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+            li.feature {
+                font-weight: bold;
+                letter-spacing: 0.6px;
+                line-height: 32px;
+            }
+        }
+        button {
+            background: #26253a;
+            text-transform: uppercase;
+            font-weight: bold;
+            letter-spacing: 3px;
+            border-radius: 0;
+            color: #fff;
+            font-size: 13px;
+            width: 70%;
+            padding: 20px 10px;
+            opacity: 0;
+        }
+        &:hover {
+            cursor: default;
+            color: #444;
+            background: white;
+            transition: all .7s ease;
+            .price {
+                color: white;
+                background: #222;
+            }
+            ul.feature-list {
+                li.feature {
+                    color: #444;
+                }
+            }
+            button {
+                opacity: 1;
+                animation: btn 1s forwards;
+                @keyframes btn {
+                    from {
+                        transform: translateY(-20px);
+                    }
+                    to {
+                        transform: translateY(0);
+                    }
+                }
+                &:hover {
+                    background: #222;
+                }
+            }
+        }
+    }
+}
+
+section#testimonials {
+    padding: 7em 0;
+    background: white;
+    i {
+        font-size: 42px;
+        padding-bottom: 14px;
+    }
+    h3 {
+        letter-spacing: 1px;
+        line-height: 36px;
+        font-family: 'Lora', sans-serif;
+        font-style: italic;
+        font-size: 24px;
+        font-weight: 600;
+    }
+    h4 {
+        font-size: 18px;
+        font-weight: 600;
+        letter-spacing: 2px;
+        color: #999;
+    }
+    .slider-btn-control {
+    }
+}
+
+footer {
+    padding: 7em 0;
+    background: #26253a;
+    color: white;
+    h2 {
+        font-size: 30px;
+        letter-spacing: 6px;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: white;
+        min-height: 72px;
+    }
+    p {
+        font-size: 17px;
+        color: #707070;
+        letter-spacing: 0.4px;
+    }
+    h5 {
+        font-weight: 600;
+        font-size: 14px;
+    }
+    h6 {
+        color: #999;
+        letter-spacing: 2px;
+        font-size: 18px;
+    }
+    ul.social-footer {
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+        li {
+            display: inline-block;
+            a {
+                text-decoration: none;
+                color: #999;
+                width: 40px;
+                height: 40px;
+                border-radius: 40px;
+                line-height: 40px;
+                text-align: center;
+                &:hover {
+                    background: rgb(255, 231, 220);
+                }
+            }
+        }
+    }
+}
